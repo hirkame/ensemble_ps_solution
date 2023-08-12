@@ -11,10 +11,7 @@ The objective of this task is to analyze the relationship between GDP (Gross Dom
 
 Hannah Ritchie, Max Roser and Pablo Rosado (2020) - "CO₂ and Greenhouse Gas Emissions". Published online at OurWorldInData.org. Retrieved from: 'https://ourworldindata.org/co2-and-greenhouse-gas-emissions' 
 
-# Manual 
+# Sample
 
-- Kick-off: 趣旨説明
-- Git, GitHub, R, RStudioの環境構築を終えているかの確認
-- Grouping
-- Self-introduction
-- Exercise on Google colab
+![sample2](https://github.com/hirkame/ensemble_ps_solution/assets/38170678/1ea69816-58f5-410c-80c0-6c4025ce53f8)
+![sample](https://github.com/hirkame/ensemble_ps_solution/assets/38170678/a8f34ad7-2e55-4264-a2f0-d671f9fb282d)
