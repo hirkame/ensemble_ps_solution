@@ -131,9 +131,10 @@ ggplot2::ggplot(data, ggplot2::aes(x = log(gdp_per_capita), y = co2_per_capita, 
 
 
 
+
 # Plot version 3 --------------------------------------------------------------------
 
-ggplot2::ggplot(data, ggplot2::aes(x = log(gdp_per_capita), 
+ggplot2::ggplot(data, ggplot2::aes(x = gdp_per_capita, 
                                    y = co2_per_capita, 
                                    group = country
                                    )) + 
@@ -147,11 +148,12 @@ ggplot2::ggplot(data, ggplot2::aes(x = log(gdp_per_capita),
     axis.line.x.bottom = ggplot2::element_line(color = 'black'),
     axis.line.y.left   = ggplot2::element_line(color = 'black')
   ) +
-  ggplot2::scale_x_continuous(
-    limits = c(log(1000), log(55000)),
-    labels = ~ round(exp(.x) / 1000),
-    breaks = c(log(1000), log(2000), log(4000), log(8000), log(16000), log(32000), log(64000))
-  ) +
+  ggplot2::scale_x_log10() + 
+  # ggplot2::scale_x_continuous(
+  #   limits = c(log(1000), log(55000)),
+  #   labels = ~ round(exp(.x) / 1000),
+  #   breaks = c(log(1000), log(2000), log(4000), log(8000), log(16000), log(32000), log(64000))
+  # ) +
   ggrepel::geom_label_repel(
     ggplot2::aes(label = ifelse(year == min_year | year == max_year, as.character(year), "")),
     size = 3,
