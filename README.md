@@ -15,4 +15,4 @@ Hannah Ritchie, Max Roser and Pablo Rosado (2020) - "CO₂ and Greenhouse Gas Em
 
 ![sample](https://github.com/hirkame/ensemble_ps_solution/assets/38170678/a8f34ad7-2e55-4264-a2f0-d671f9fb282d)
 
-<img width="732" alt="sample2" src="https://github.com/hirkame/ensemble_ps_solution/assets/38170678/4e107e1d-9c9e-4a05-be29-41bb8a83481b">
+<img width="737" alt="sample2" src="https://github.com/hirkame/ensemble_ps_solution/assets/38170678/a4790076-7aeb-404a-8fcc-77e166004421">
